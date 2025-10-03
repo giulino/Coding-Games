@@ -26,11 +26,5 @@ for i in range(1, below):
     elif (i % numbers[1]) == 0:
         sum += i
 
-print(f"The sum of the multiples of {numbers[0]} and {numbers[1]}\\n
-        below {below} is {sum}")
-
-
-
-
-
-
+print(f"The sum of the multiples of {numbers[0]} and {numbers[1]}\\n"
+      f"below {below} is {sum}")
